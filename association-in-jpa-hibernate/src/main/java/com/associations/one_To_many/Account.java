@@ -17,7 +17,7 @@ public class Account {
     private int accountNumber;
     @Column
     private String accountName;
-    @ManyToOne
+    @ManyToOne  //this for  bi-directional  used. and many to one mention this is unidirectional.
     private Employee employee;
     
 
